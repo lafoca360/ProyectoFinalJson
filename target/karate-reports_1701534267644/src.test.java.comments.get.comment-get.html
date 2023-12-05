@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>src.test.java.comments.get.comment-get</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">5</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2023-11-30 02:49:43 p. m.</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:3]"><span>[1:3]</span> <span>1- Get comment</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[2:8]"><span>[2:8]</span> <span>2- Get comment</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[3:13]"><span>[3:13]</span> <span>3- Get comment</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[4:18]"><span>[4:18]</span> <span>4- Get comment</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[5:24]"><span>[5:24]</span> <span>5- Get comment</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/comments/get/comment-get.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">CP1 - Get comment from url</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:3]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:3]</span>
+                <span class="scenario-name">1- Get comment</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>3990</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref passed">4</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &quot;https://jsonplaceholder.typicode.com&quot; + &quot;/posts/1/comments?id=&quot; + &quot;1&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">273</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref passed">5</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3717</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5">14:49:38.739 request:
+1 &gt; GET https://jsonplaceholder.typicode.com/posts/1/comments?id=1
+1 &gt; Host: jsonplaceholder.typicode.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.8)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+14:49:40.426 response time in milliseconds: 1516
+1 &lt; 200
+1 &lt; Date: Thu, 30 Nov 2023 19:49:40 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Report-To: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;max_age&quot;:3600,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?ts=1701122519&amp;sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&amp;s=VQZwFxXSKs878PXvjz3UDDDG9t19wUamiAEQ92snnqo%3D&quot;}]}
+1 &lt; Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1701122519&amp;sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&amp;s=VQZwFxXSKs878PXvjz3UDDDG9t19wUamiAEQ92snnqo%3D
+1 &lt; Nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.005,&quot;failure_fraction&quot;:0.05,&quot;response_headers&quot;:[&quot;Via&quot;]}
+1 &lt; X-Powered-By: Express
+1 &lt; X-Ratelimit-Limit: 1000
+1 &lt; X-Ratelimit-Remaining: 998
+1 &lt; X-Ratelimit-Reset: 1701122563
+1 &lt; Vary: Origin, Accept-Encoding
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; Cache-Control: max-age=43200
+1 &lt; Pragma: no-cache
+1 &lt; Expires: -1
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; Etag: W/&quot;11e-BT9EDqICKSYk3y4wA95lIWXNSac&quot;
+1 &lt; Via: 1.1 vegur
+1 &lt; CF-Cache-Status: REVALIDATED
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 82e59d6d2bb0b3c8-MIA
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400
+[
+  {
+    &quot;postId&quot;: 1,
+    &quot;id&quot;: 1,
+    &quot;name&quot;: &quot;id labore ex et quam laborum&quot;,
+    &quot;email&quot;: &quot;Eliseo@gardner.biz&quot;,
+    &quot;body&quot;: &quot;laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium&quot;
+  }
+]
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref passed">6</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2:8]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2:8]</span>
+                <span class="scenario-name">2- Get comment</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>405</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &quot;https://jsonplaceholder.typicode.com&quot; + &quot;/posts/1/comments?id=&quot; + &quot;2&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">403</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.10">14:49:41.942 request:
+1 &gt; GET https://jsonplaceholder.typicode.com/posts/1/comments?id=2
+1 &gt; Host: jsonplaceholder.typicode.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.8)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+14:49:42.280 response time in milliseconds: 337
+1 &lt; 200
+1 &lt; Date: Thu, 30 Nov 2023 19:49:42 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Report-To: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;max_age&quot;:3600,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?ts=1701373782&amp;sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&amp;s=b4y2LYxoiy9t4bTrhhA%2FNi4H4z0%2FlX71bTIN8vd5TLU%3D&quot;}]}
+1 &lt; Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1701373782&amp;sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&amp;s=b4y2LYxoiy9t4bTrhhA%2FNi4H4z0%2FlX71bTIN8vd5TLU%3D
+1 &lt; Nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.005,&quot;failure_fraction&quot;:0.05,&quot;response_headers&quot;:[&quot;Via&quot;]}
+1 &lt; X-Powered-By: Express
+1 &lt; X-Ratelimit-Limit: 1000
+1 &lt; X-Ratelimit-Remaining: 998
+1 &lt; X-Ratelimit-Reset: 1701373798
+1 &lt; Vary: Origin, Accept-Encoding
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; Cache-Control: max-age=43200
+1 &lt; Pragma: no-cache
+1 &lt; Expires: -1
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; Etag: W/&quot;143-2eMau6pkaIXgwdA1D73L4s4fUtQ&quot;
+1 &lt; Via: 1.1 vegur
+1 &lt; CF-Cache-Status: MISS
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 82e59d7a8e8e02e4-MIA
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400
+[
+  {
+    &quot;postId&quot;: 1,
+    &quot;id&quot;: 2,
+    &quot;name&quot;: &quot;quo vero reiciendis velit similique earum&quot;,
+    &quot;email&quot;: &quot;Jayne_Kuhic@sydney.com&quot;,
+    &quot;body&quot;: &quot;est natus enim nihil est dolore omnis voluptatem numquam\net omnis occaecati quod ullam at\nvoluptatem error expedita pariatur\nnihil sint nostrum voluptatem reiciendis et&quot;
+  }
+]
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[3:13]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[3:13]</span>
+                <span class="scenario-name">3- Get comment</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>333</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.14">
+      <div class="step-ref passed">14</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &quot;https://jsonplaceholder.typicode.com&quot; + &quot;/posts/1/comments?id=&quot; + &quot;3&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.15">
+      <div class="step-ref passed">15</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">331</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.15">14:49:42.346 request:
+1 &gt; GET https://jsonplaceholder.typicode.com/posts/1/comments?id=3
+1 &gt; Host: jsonplaceholder.typicode.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.8)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+14:49:42.632 response time in milliseconds: 285
+1 &lt; 200
+1 &lt; Date: Thu, 30 Nov 2023 19:49:42 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Report-To: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;max_age&quot;:3600,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?ts=1701318091&amp;sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&amp;s=44APcz%2BbXBSXETATgTZOP2%2FME2ik70CP8uGJC1QBHd4%3D&quot;}]}
+1 &lt; Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1701318091&amp;sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&amp;s=44APcz%2BbXBSXETATgTZOP2%2FME2ik70CP8uGJC1QBHd4%3D
+1 &lt; Nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.005,&quot;failure_fraction&quot;:0.05,&quot;response_headers&quot;:[&quot;Via&quot;]}
+1 &lt; X-Powered-By: Express
+1 &lt; X-Ratelimit-Limit: 1000
+1 &lt; X-Ratelimit-Remaining: 999
+1 &lt; X-Ratelimit-Reset: 1701318130
+1 &lt; Vary: Origin, Accept-Encoding
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; Cache-Control: max-age=43200
+1 &lt; Pragma: no-cache
+1 &lt; Expires: -1
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; Etag: W/&quot;166-d6kOihfbAq1zpmewn+G+SahDn6Q&quot;
+1 &lt; Via: 1.1 vegur
+1 &lt; CF-Cache-Status: REVALIDATED
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 82e59d7ca8022884-MIA
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400
+[
+  {
+    &quot;postId&quot;: 1,
+    &quot;id&quot;: 3,
+    &quot;name&quot;: &quot;odio adipisci rerum aut animi&quot;,
+    &quot;email&quot;: &quot;Nikita@garfield.biz&quot;,
+    &quot;body&quot;: &quot;quia molestiae reprehenderit quasi aspernatur\naut expedita occaecati aliquam eveniet laudantium\nomnis quibusdam delectus saepe quia accusamus maiores nam est\ncum et ducimus et vero voluptates excepturi deleniti ratione&quot;
+  }
+]
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.16">
+      <div class="step-ref passed">16</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[4:18]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[4:18]</span>
+                <span class="scenario-name">4- Get comment</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>369</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &quot;https://jsonplaceholder.typicode.com&quot; + &quot;/posts/1/comments?id=&quot; + &quot;4&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">8</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">361</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.20">14:49:42.698 request:
+1 &gt; GET https://jsonplaceholder.typicode.com/posts/1/comments?id=4
+1 &gt; Host: jsonplaceholder.typicode.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.8)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+14:49:43.027 response time in milliseconds: 326
+1 &lt; 200
+1 &lt; Date: Thu, 30 Nov 2023 19:49:43 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Report-To: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;max_age&quot;:3600,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?ts=1701373782&amp;sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&amp;s=b4y2LYxoiy9t4bTrhhA%2FNi4H4z0%2FlX71bTIN8vd5TLU%3D&quot;}]}
+1 &lt; Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1701373782&amp;sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&amp;s=b4y2LYxoiy9t4bTrhhA%2FNi4H4z0%2FlX71bTIN8vd5TLU%3D
+1 &lt; Nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.005,&quot;failure_fraction&quot;:0.05,&quot;response_headers&quot;:[&quot;Via&quot;]}
+1 &lt; X-Powered-By: Express
+1 &lt; X-Ratelimit-Limit: 1000
+1 &lt; X-Ratelimit-Remaining: 996
+1 &lt; X-Ratelimit-Reset: 1701373798
+1 &lt; Vary: Origin, Accept-Encoding
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; Cache-Control: max-age=43200
+1 &lt; Pragma: no-cache
+1 &lt; Expires: -1
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; Etag: W/&quot;111-6u76iwAy3hUeWlMv+eUisvAa88Q&quot;
+1 &lt; Via: 1.1 vegur
+1 &lt; CF-Cache-Status: MISS
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 82e59d7f2c1409de-MIA
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400
+[
+  {
+    &quot;postId&quot;: 1,
+    &quot;id&quot;: 4,
+    &quot;name&quot;: &quot;alias odio sit&quot;,
+    &quot;email&quot;: &quot;Lew@alysha.tv&quot;,
+    &quot;body&quot;: &quot;non et atque\noccaecati deserunt quas accusantium unde odit nobis qui voluptatem\nquia voluptas consequuntur itaque dolor\net qui rerum deleniti ut occaecati&quot;
+  }
+]
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.21">
+      <div class="step-ref passed">21</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[5:24]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[5:24]</span>
+                <span class="scenario-name">5- Get comment</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>296</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.25">
+      <div class="step-ref passed">25</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &quot;https://jsonplaceholder.typicode.com&quot; + &quot;/posts/1/comments?id=&quot; + &quot;5&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.26">
+      <div class="step-ref passed">26</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">293</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.26">14:49:43.048 request:
+1 &gt; GET https://jsonplaceholder.typicode.com/posts/1/comments?id=5
+1 &gt; Host: jsonplaceholder.typicode.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.8)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+14:49:43.335 response time in milliseconds: 285
+1 &lt; 200
+1 &lt; Date: Thu, 30 Nov 2023 19:49:43 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Report-To: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;max_age&quot;:3600,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?ts=1701316660&amp;sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&amp;s=GyrahAKasVDK6Z0Sz0leGn7mUBEtu3mXmG4g89e%2Faos%3D&quot;}]}
+1 &lt; Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1701316660&amp;sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&amp;s=GyrahAKasVDK6Z0Sz0leGn7mUBEtu3mXmG4g89e%2Faos%3D
+1 &lt; Nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.005,&quot;failure_fraction&quot;:0.05,&quot;response_headers&quot;:[&quot;Via&quot;]}
+1 &lt; X-Powered-By: Express
+1 &lt; X-Ratelimit-Limit: 1000
+1 &lt; X-Ratelimit-Remaining: 999
+1 &lt; X-Ratelimit-Reset: 1701316690
+1 &lt; Vary: Origin, Accept-Encoding
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; Cache-Control: max-age=43200
+1 &lt; Pragma: no-cache
+1 &lt; Expires: -1
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; Etag: W/&quot;116-P7BtySmelhRUOzIBE1sWWjNtSmw&quot;
+1 &lt; Via: 1.1 vegur
+1 &lt; CF-Cache-Status: REVALIDATED
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 82e59d810e6b741c-MIA
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400
+[
+  {
+    &quot;postId&quot;: 1,
+    &quot;id&quot;: 5,
+    &quot;name&quot;: &quot;vero eaque aliquid doloribus et culpa&quot;,
+    &quot;email&quot;: &quot;Hayden@althea.biz&quot;,
+    &quot;body&quot;: &quot;harum non quasi et ratione\ntempore iure ex voluptates in ratione\nharum architecto fugit inventore cupiditate\nvoluptates magni quo et&quot;
+  }
+]
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.27">
+      <div class="step-ref passed">27</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
